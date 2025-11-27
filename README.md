@@ -54,7 +54,7 @@ A **Latent Diffusion Model (LDM)** preferred because:
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Output
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/cd8346a0-a6cf-4357-94c8-d21457cc5e6a" />
 
 
