@@ -140,8 +140,8 @@ def upscale_image(image_path):
 !streamlit run app.py --server.port 6006 & npx localtunnel --port 6006
 
 from pyngrok import ngrok
-ngrok.set_auth_token("360QQO3tjj9eASFk81wxtdrg7Uo_5K2VuEUMpALinnaYw7t74")
-NGROK_AUTH_TOKEN = "360QQO3tjj9eASFk81wxtdrg7Uo_5K2VuEUMpALinnaYw7t74"
+ngrok.set_auth_token("your_token")
+NGROK_AUTH_TOKEN = "your_token"
 
 import subprocess, threading
 
@@ -159,7 +159,7 @@ threading.Thread(target=run).start()
 from pyngrok import ngrok
 import subprocess, threading
 
-NGROK_AUTH_TOKEN = "360QQO3tjj9eASFk81wxtdrg7Uo_5K2VuEUMpALinnaYw7t74"  # Must start with 2
+NGROK_AUTH_TOKEN = "your_token"  # Must start with 2
 
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 ngrok.kill()
